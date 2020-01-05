@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61eab7a67f6d2634954ff82a68f15c57",
+    "revision": "805dcd43d73858f3b9e43df466dfc24b",
     "url": "/game-minesweeper/index.html"
   },
   {
-    "revision": "d2b411d0b5f4726feb8a",
+    "revision": "10120df3bb88dfef0191",
     "url": "/game-minesweeper/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "b50f1c6d573a2489a289",
-    "url": "/game-minesweeper/static/js/2.0faebfbf.chunk.js"
+    "revision": "e043674cea8842620c7c",
+    "url": "/game-minesweeper/static/js/2.5047d66a.chunk.js"
   },
   {
     "revision": "fd228f9b9a68ce6b23a6cf8b0a38a0e3",
-    "url": "/game-minesweeper/static/js/2.0faebfbf.chunk.js.LICENSE"
+    "url": "/game-minesweeper/static/js/2.5047d66a.chunk.js.LICENSE"
   },
   {
-    "revision": "d2b411d0b5f4726feb8a",
-    "url": "/game-minesweeper/static/js/main.fdf78011.chunk.js"
+    "revision": "10120df3bb88dfef0191",
+    "url": "/game-minesweeper/static/js/main.20a63520.chunk.js"
   },
   {
     "revision": "a2ead8830377aa2f58c4",
