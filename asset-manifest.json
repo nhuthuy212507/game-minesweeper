@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/game-minesweeper/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/game-minesweeper/static/js/main.fdf78011.chunk.js",
+    "main.js.map": "/game-minesweeper/static/js/main.fdf78011.chunk.js.map",
+    "runtime-main.js": "/game-minesweeper/static/js/runtime-main.bebb65f1.js",
+    "runtime-main.js.map": "/game-minesweeper/static/js/runtime-main.bebb65f1.js.map",
+    "static/js/2.0faebfbf.chunk.js": "/game-minesweeper/static/js/2.0faebfbf.chunk.js",
+    "static/js/2.0faebfbf.chunk.js.map": "/game-minesweeper/static/js/2.0faebfbf.chunk.js.map",
+    "index.html": "/game-minesweeper/index.html",
+    "precache-manifest.9a2aeba5b2bd7f3346599ddb861e8439.js": "/game-minesweeper/precache-manifest.9a2aeba5b2bd7f3346599ddb861e8439.js",
+    "service-worker.js": "/game-minesweeper/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/game-minesweeper/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.0faebfbf.chunk.js.LICENSE": "/game-minesweeper/static/js/2.0faebfbf.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bebb65f1.js",
+    "static/js/2.0faebfbf.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.fdf78011.chunk.js"
+  ]
+}
