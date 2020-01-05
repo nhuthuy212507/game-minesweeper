@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { Wrapper, Title } from './components/App';
-import NewGameContainer from './containers/NewGame';
-import GridMinesContainer from './containers/GridMines';
-import { setData, setDataSuccess, setDataError, setIsPlaying } from './redux/actions';
-import { generateData } from './helpers';
+import { Wrapper, Title } from '../components/App';
+import NewGameContainer from './NewGame';
+import GridMinesContainer from './GridMines';
+import { setData, setDataSuccess, setDataError, setIsPlaying } from '../redux/actions';
+import { generateData } from '../helpers';
+import { getMines } from '../services/api';
 
 function App({ onSetData, onSetDataSuccess, onSetDataError, onSetIsPlaying, isPlaying }) {
   const [mines, setMines] = useState(10);
@@ -14,20 +15,15 @@ function App({ onSetData, onSetDataSuccess, onSetDataError, onSetIsPlaying, isPl
     const mines = level === 9 ? 10 : 40;
     setMines(mines);
     onSetData();
+
     try {
-      const response = await fetch(`https://tiki-minesweeper.herokuapp.com/getMines?size=${level}&mines=${mines}`);
-      if (response) {
-        const result = await response.json();
-        const { data, msg } = result;
-        if (msg === 'success') {
-          const dataGrid = generateData(level, data);
-          onSetDataSuccess(dataGrid);
-          onSetIsPlaying();
-        }
-      }
+      const response = await getMines(level);
+      const dataGrid = generateData(level, response);
+      onSetDataSuccess(dataGrid);
+      onSetIsPlaying();
     } catch (error) {
       onSetDataError(error);
-    }  
+    }
   }
 
   return (

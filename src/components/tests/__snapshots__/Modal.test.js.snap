@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Modal should match the snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa eONkMp"
+  >
+    <div
+      class="sc-bwzfXH gXLqpO"
+    />
+  </div>
+</div>
+`;

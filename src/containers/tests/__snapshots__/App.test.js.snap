@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppContainer /> should render and match the snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa khUSez"
+  >
+    <h1
+      class="sc-bwzfXH bszZAY"
+    >
+      Mini Minesweeper
+    </h1>
+    <div
+      class="sc-bxivhb bxAvju"
+    >
+      <select>
+        <option
+          value="9"
+        >
+          Beginner
+        </option>
+        <option
+          value="16"
+        >
+          Advantage
+        </option>
+      </select>
+      <button
+        class="sc-htpNat sc-ifAKCX jRFrto"
+        data-testid="button-play-game"
+      >
+        Play game
+      </button>
+    </div>
+  </div>
+</div>
+`;

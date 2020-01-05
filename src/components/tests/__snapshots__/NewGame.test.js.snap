@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewGame /> NewGame should match the snapshot 1`] = `
+<div>
+  <div
+    class="sc-bwzfXH dMjuZz"
+  >
+    <button
+      class="sc-bdVaJa sc-htpNat gYrVGL"
+    >
+      Play Game
+    </button>
+  </div>
+</div>
+`;

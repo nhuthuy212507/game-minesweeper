@@ -12,7 +12,7 @@ function NewGameContainer({ onPlayGame, isStarting }) {
         <option value={9}>Beginner</option>
         <option value={16}>Advantage</option>
       </select>
-      <PlayButton onClick={() => onPlayGame(level)}>
+      <PlayButton onClick={() => onPlayGame(level)} data-testid="button-play-game">
         {isStarting ? 'Please wait' : 'Play game'}
       </PlayButton>
     </Content>

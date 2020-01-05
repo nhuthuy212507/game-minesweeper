@@ -59,7 +59,7 @@ function GridMinesContainer({
 
   return (
     <>
-      <Grid>
+      <Grid data-testid="grid-mines">
         {dataGrid.map((row, x) => (
           <Row key={x}>
             {row.map((cell, y) => (

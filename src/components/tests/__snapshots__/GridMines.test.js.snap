@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridMines /> GridMines should match the snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa hugSdd"
+  >
+    <div
+      class="sc-bwzfXH fpBhud"
+    >
+      <div
+        class="sc-htpNat cnPmLE"
+      />
+    </div>
+  </div>
+</div>
+`;

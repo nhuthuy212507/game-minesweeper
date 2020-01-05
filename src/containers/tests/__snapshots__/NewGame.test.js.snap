@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewGameContainer /> should render and match the snapshot 1`] = `
+<div>
+  <div
+    class="sc-bwzfXH dMjuZz"
+  >
+    <select>
+      <option
+        value="9"
+      >
+        Beginner
+      </option>
+      <option
+        value="16"
+      >
+        Advantage
+      </option>
+    </select>
+    <button
+      class="sc-bdVaJa sc-htpNat gYrVGL"
+      data-testid="button-play-game"
+    >
+      Play game
+    </button>
+  </div>
+</div>
+`;
