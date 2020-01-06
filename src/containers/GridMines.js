@@ -17,6 +17,9 @@ function GridMinesContainer({
   const [endTime, setEndTime] = useState(0);
 
   function openCell(cell) {
+
+    if (cell.isOpen) return;
+
     if (startTime === 0) {
       setStartTime(performance.now());
     }

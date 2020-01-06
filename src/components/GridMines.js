@@ -51,6 +51,7 @@ export const Cell = styled.div`
   ${props => props.isOpen && css`
     background-color: #cccccc ;
     color: ${({ density }) => handleColor(density)};
+    cursor: inherit;
   `}
   ${props => props.isOpen && props.isMine && 'background-color: red;'}
 `;
